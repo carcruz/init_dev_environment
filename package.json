@@ -1,6 +1,6 @@
 {
   "name": "init_dev_enviroment",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Carlos Cruz",
   "description": "A dev enviromend with gulp, browserify and sass",
   "repository": {
