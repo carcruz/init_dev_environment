@@ -1,0 +1,12 @@
+node_modules
+*.zip
+build
+dist
+.env
+build/**
+dist/**
+.zip
+npm-debug.log
+.DS_Store
+.Thumbs
+.thumbs
