@@ -23,9 +23,6 @@ gulp.task('browserify', function() {
       .on('error', handleErrors)
       .pipe(source('app.js'))
       .pipe(gulp.dest('./build/'))
-      .on('error', handleErrors)
-      .pipe(source('app.js'))
-      .pipe(gulp.dest('./build/'))
       .on('end', bundleLogger.end);
   };
 
