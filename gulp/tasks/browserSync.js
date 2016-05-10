@@ -10,6 +10,9 @@ gulp.task('browserSync', ['build'], function() {
     files: [
       "build/**",
       "!build/images/map/**",
+      // Watch everything in build
+      "build/**",
+      "!build/images/map/**",
       '!http://localhost:3000/*'
     ]
   });

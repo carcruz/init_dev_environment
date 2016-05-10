@@ -3,10 +3,10 @@ node_modules
 build
 build/**
 dist
+dist/**
 .env
 production
 production/**
-dist/**
 .zip
 npm-debug.log
 .DS_Store

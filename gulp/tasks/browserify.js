@@ -15,10 +15,14 @@ gulp.task('browserify', function() {
   });
 
   var bundle = function() {
+
     bundleLogger.start();
 
     return bundler
       .bundle()
+      .on('error', handleErrors)
+      .pipe(source('app.js'))
+      .pipe(gulp.dest('./build/'))
       .on('error', handleErrors)
       .pipe(source('app.js'))
       .pipe(gulp.dest('./build/'))
@@ -27,7 +31,6 @@ gulp.task('browserify', function() {
 
   if(global.isWatching) {
     bundler = watchify(bundler);
-
     bundler.on('update', function(){
       gulp.src(['build/*'])
     .pipe(gulp.dest('build'));

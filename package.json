@@ -21,10 +21,13 @@
     "gulp-uglify": "^1.5.3",
     "gulp-util": "^3.0.0",
     "pretty-hrtime": "~0.2.1",
+    "gulp-util": "^3.0.0",
     "require-dir": "^0.1.0",
     "rimraf": "^2.2.8",
     "vinyl-source-stream": "~0.1.1",
     "watchify": "~1.0.2",
-    "yargs": "^4.7.0"
+    "gulp-sass": "^2.0.4",
+    "pretty-hrtime":"~0.2.1",
+    "gulp-notify": "^1.4.2"
   }
 }
