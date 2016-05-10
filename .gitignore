@@ -1,9 +1,11 @@
 node_modules
 *.zip
 build
+build/**
 dist
 .env
-build/**
+production
+production/**
 dist/**
 .zip
 npm-debug.log
