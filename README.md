@@ -30,7 +30,7 @@ This repo provides a basic development environment for single page  applications
 ####To make a production ready build:
 `npm run build`
 
-This will uglufy the JavaScript files. You can fild the files at **./production**
+This will uglufy the JavaScript files. You can find the files at **./production**
 
 The difference between this folder and the **./build** folder is that this one is uglified, whereas the **./build** files are generated for the development environment.
 
