@@ -15,7 +15,7 @@ This repo provides a basic development environment for single page  applications
 
 ####Cloning and setting up:
 
-1. `git clone https://github.com/Cruz14/init_dev_enviroment.git`
+1. `git clone https://github.com/Cruz14/init_dev_environment.git`
 
 2. `cd init_dev_environment`
 
